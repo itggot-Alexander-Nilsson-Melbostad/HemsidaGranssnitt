@@ -1,10 +1,12 @@
 @media only screen and (max-device-width: 400px){
+
+        
     
         body{
             margin: 0;
             background-image: url(../img/bgimage.jpg);
             background-color: white;
-            display:;
+            display:grid;
         }
          
         .container{
@@ -22,7 +24,7 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: 1fr 1fr;
-            display: ;
+            display: grid;
             width: 100vw;
         }
     
@@ -31,10 +33,9 @@
         }
     
         header > h1{
-            display:; 
             font-size: 3em;
             grid-column: 1/5;
-            padding-left: 65px; 
+            padding-left: 72px; 
             color: white;
             text-shadow: 2px 2px #ff0000;
     
@@ -46,7 +47,7 @@
         }
     
         footer{
-            display: ;
+            display: grid;
             grid-column: 1/5;
             grid-row: 10/11;
             background-color: #0079B2;
@@ -72,7 +73,7 @@
         }
     
         .Aktiviteter{
-            display: ;
+            display: grid;
             grid-column: 1/5;
             grid-row: 3/4;
             background-color: red;
