@@ -1,2 +1,3 @@
 ignore(/\/_.*/)
-layout("index.html.erb")
+layout("layout.html.erb")
+ignore(/.*.sass-cache.*/)
